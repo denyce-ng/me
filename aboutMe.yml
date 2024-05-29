@@ -5,7 +5,7 @@ first_name: Denyce
 studentNumber: z5594065 # if you're not at UNSW, your org name, e.g. BVN
 # accounts
 stackOverflowLink: https://stackoverflow.com/users/25223498/denyce-ng
-github: notionparallax
+github: denyce-ng
 # This format is called YAML which stands for Yet Another Markup Language
 # It's supposed to be machine readable, and human readable. It does a pretty
 # good job of both of those goals, but there are some gotchas:
