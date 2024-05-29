@@ -6,4 +6,5 @@ I found coding kinda cool? and interesting I guess but there is definitely much 
 
 I find it super cool that an application I code locally with could upload things to github which is an online platform.
 
-ayyyyy
+123
+222
