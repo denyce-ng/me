@@ -106,9 +106,9 @@ def loops_2_preview():
             ['💩', '💩', '💩', '💩'],
           ]
     """
-    field = []  # Initialize an empty list to store the square field
+    field = []  # create an empty list to store the square field
     for i in range(4):  # Outer loop for rows (range from 0 to 3)
-        row = []  # Initialize an empty list to represent each row
+        row = []  # create an empty list to represent each row
         for j in range(4):  # Inner loop for columns (range from 0 to 3)
             row.append("💩")  # Add a poop emoji ('💩') to the row list on each iteration
         field.append(row)  # Add the completed row to the field list
@@ -133,7 +133,7 @@ def loops_2():
             ['*', '*', '*', '*', '*', '*', '*', '*', '*', '*'],
           ]
     """
-     star_field = []
+    star_field = []
     for i in range(10):
         star_row = []
         for j in range(10):
@@ -160,10 +160,18 @@ def loops_3():
     ]
     remember that range(10) produces a list of numbers from 0...9
     So for every step produced by `for i in range(10):` i is a different number
-    TIP: notice that this needs to to return strings of numbers,
-         so call str(number) to cast.
+    TIP: notice that this needs to to return strings of numbers, so call str(number) to cast.
     """
-    return None
+    number_field = []  # create an empty list to store the number lists
+    for i in range(10):  # Outer loop for rows (10 items in outer list)
+        number_row = []  # create an empty list in each of the 10 outer list items, where each empty list represents a row
+        for j in range(10):  # Inner loop for columns (j had values 0 ~ 9, representing the column numbers within each row.)
+            number_row.append(str(i))  # the string representation of the current row number is added the row list on each iteration
+            #str (i) instead of str(j) is used because we want the number to be the number representing the row
+    number_field.append(number_row)  # Add the completed number row list to the number_field list
+return number_field  # Return the list representing the 2-dimensional number field
+
+    
 
 
 def loops_4():
