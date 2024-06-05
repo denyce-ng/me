@@ -168,11 +168,8 @@ def loops_3():
         for j in range(10):  # Inner loop for columns (j had values 0 ~ 9, representing the column numbers within each row.)
             number_row.append(str(i))  # the string representation of the current row number is added the row list on each iteration
             #str (i) instead of str(j) is used because we want the number to be the number representing the row
-    number_field.append(number_row)  # Add the completed number row list to the number_field list
-return number_field  # Return the list representing the 2-dimensional number field
-
-    
-
+        number_field.append(number_row)  # Add the completed number row list to the number_field list
+    return number_field  # Return the list representing the 2-dimensional number field
 
 def loops_4():
     """Make a block of numbers that rises left to right.
@@ -191,7 +188,13 @@ def loops_4():
       ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
     ]
     """
-    return None
+    outer_list = []
+    for i in range(10):
+        inner_list = []
+        for j in range(10):
+            inner_list.append(str(j))
+        outer_list.append(inner_list)
+    return (outer_list)
 
 
 def loops_5():

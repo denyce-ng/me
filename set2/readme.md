@@ -31,5 +31,8 @@ print(formatted_string)
 #.join(list): a string method that takes all items in a list and concatenates them into one single string
 #in "".join(wordArray): "" should be the separator (thing between joined elements), here it means that nothing will be between the joined elements
 #modulo division: A%B=C where A is divided by B and C is the remainder of the division
+#star_list = [] creates a new empty list called star_list
+#for loop: for i in range (x): iterate smtg x times, The loop will execute the indented block of code for each value of x. (rmb 0 indexing, so i will be 9 if your range is 10)
+#indented list.append("_"): Inside the loop, a single star ('_') is added to the star_list on each iteration.
 
 #exercise2 prints MC Hammer twice
