@@ -30,4 +30,6 @@ print(formatted_string)
 #getLetter(index): retrieves a letter from the alphabet based on a given index.
 #.join(list): a string method that takes all items in a list and concatenates them into one single string
 #in "".join(wordArray): "" should be the separator (thing between joined elements), here it means that nothing will be between the joined elements
+#modulo division: A%B=C where A is divided by B and C is the remainder of the division
+
 #exercise2 prints MC Hammer twice
