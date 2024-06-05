@@ -23,3 +23,6 @@ age = 40
 formatted_string = f"My name is {name} and I am {age} years old."
 print(formatted_string)
 #you can include functions in f-strings
+
+#uname: a function to show system info
+

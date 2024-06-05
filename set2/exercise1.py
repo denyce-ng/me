@@ -22,24 +22,28 @@ some_words = ["what", "does", "this", "line", "do", "?"]
 
 #I think the function will print the first string in the list some_words
 for word in some_words:
-    print(word)
+    print(word) #the function printed every string in the list
+#I think the function will print the first string in the list some_words
 
 for x in some_words:
-    print(x)
+    print(x) #the function printed every string in the list
 
-print(some_words)
+#I think this function will print the whole list
+print(some_words) #the function printed the WHOLE list including the brackets, the commas and the quotes
 
+#if there are more than 3 items in the list some_words, it will print "some_words contains more than 3 words"
 if len(some_words) > 3:
-    print("some_words contains more than 3 words")
+    print("some_words contains more than 3 words") #if there are more than 3 objects in the list some_words then it will print "some_words contain more than 3 words" 
 
-
+#uname provides system information
+#the function will print system information of the platform it is run on
 def usefulFunction():
     """
-    You may want to look up what uname does before you guess
+    You may want to look up what uname does before you guess 
     what the line below does:
     https://docs.python.org/3/library/platform.html#platform.uname
     """
-    print(platform.uname())
+    print(platform.uname()) #the function prints the system information of the device
 
 
 usefulFunction()
