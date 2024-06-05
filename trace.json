@@ -2,7 +2,7 @@
   "1",
   {
     "of_total": 34,
-    "mark": 19,
+    "mark": 21,
     "results": [
       {
         "value": 1,
@@ -81,7 +81,7 @@
         "name": "Exercise 0: shout_with_a_number - hi, 1 => HI 1"
       },
       {
-        "value": 0,
+        "value": 1,
         "name": "Exercise 2: debug the file"
       },
       {
@@ -137,7 +137,7 @@
         "name": "Exercise 3: loops_7 - pyramid of stars"
       },
       {
-        "value": 0,
+        "value": 1,
         "name": "Lab book entry completed"
       }
     ],

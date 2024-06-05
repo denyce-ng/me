@@ -17,7 +17,7 @@ TODO: Reflect on what you learned this week and what is still unclear.
 #print(“string”)
 
 #calling: call to a function
-#f-string: 
+#f-string:
 name = "Dave"
 age = 40
 formatted_string = f"My name is {name} and I am {age} years old."
@@ -25,4 +25,9 @@ print(formatted_string)
 #you can include functions in f-strings
 
 #uname: a function to show system info
-
+#string: string module which is a part of the Python Standard Library
+#string.ascii_lowercase is a static constant that gives you a string of all lowercase letters, while str.lower() is a method that you call on a string object to convert it to lowercase.
+#getLetter(index): retrieves a letter from the alphabet based on a given index.
+#.join(list): a string method that takes all items in a list and concatenates them into one single string
+#in "".join(wordArray): "" should be the separator (thing between joined elements), here it means that nothing will be between the joined elements
+#exercise2 prints MC Hammer twice
