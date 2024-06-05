@@ -17,8 +17,10 @@ import platform
 # I think this will print "hello! Let's get started" by calling the print function.
 print("hello! Let's get started")  # it printed "hello! Let's get started"
 
+#this is a list of strings
 some_words = ["what", "does", "this", "line", "do", "?"]
 
+#I think the function will print the first string in the list some_words
 for word in some_words:
     print(word)
 
