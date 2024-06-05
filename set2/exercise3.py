@@ -18,8 +18,10 @@ def is_odd(a_number):
     
     So if a_number modulo two is zero, then it's even.
     """
+    if (a_number) % 2 == 1 :
+        return True
     if (a_number) % 2 == 0 :
-        return "True"
+        return False
 
 
 def fix_it(moves=True, should_move=True):
@@ -37,7 +39,17 @@ def fix_it(moves=True, should_move=True):
     Most people write this function with 4 return statements.
     As an extra challenge, see if you can get that down to three.
     """
-    return None
+    if moves == should_move:
+            return "No Problem"
+        
+    if moves:
+       if not should_move:
+            return "WD-40"
+    
+    if not moves:
+        if should_move:
+            return "Duct Tape"
+        
 
 
 def loops_preview():
@@ -60,7 +72,10 @@ def loops_1a():
     return a list of 10 items, each one a string with exacly one star in it.
     E.g.: ['*', '*', '*', '*', '*', '*', '*', '*', '*', '*']
     """
-    return None
+    star_list = []
+    for i in range (10):
+        star_list.append("*")
+    return star_list
 
 
 def loops_1c(number_of_items=5, symbol="#"):
@@ -73,7 +88,10 @@ def loops_1c(number_of_items=5, symbol="#"):
     Remember that you're being passed arguments here. Don't hard code the number
     or the symbol, let it be whatever it wants to be.
     """
-    return None
+    symbol_list = []
+    for i in range (number_of_items):
+        symbol_list.append(symbol)
+    return symbol_list
 
 
 def loops_2_preview():
@@ -88,13 +106,13 @@ def loops_2_preview():
             ['💩', '💩', '💩', '💩'],
           ]
     """
-    field = []
-    for i in range(4):
-        row = []
-        for j in range(4):
-            row.append("💩")
-        field.append(row)
-    return field
+    field = []  # Initialize an empty list to store the square field
+    for i in range(4):  # Outer loop for rows (range from 0 to 3)
+        row = []  # Initialize an empty list to represent each row
+        for j in range(4):  # Inner loop for columns (range from 0 to 3)
+            row.append("💩")  # Add a poop emoji ('💩') to the row list on each iteration
+        field.append(row)  # Add the completed row to the field list
+    return field  # Return the list representing the square field
 
 
 def loops_2():
@@ -115,7 +133,13 @@ def loops_2():
             ['*', '*', '*', '*', '*', '*', '*', '*', '*', '*'],
           ]
     """
-    return None
+     star_field = []
+    for i in range(10):
+        star_row = []
+        for j in range(10):
+            star_row.append("*")
+        star_field.append(star_row)
+    return star_field
 
 
 def loops_3():
