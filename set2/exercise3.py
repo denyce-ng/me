@@ -224,7 +224,14 @@ def loops_5():
         f"There are {num_bottles} green bottles"
     you'll come to see the pros and cons of each over time.
     """
-    return None
+    outer_list1 = []
+    for i in range (10):
+        inner_list1 = []
+        for j in range (5):
+            inner_list1.append(str(f"(i{i},j{j})"))
+        outer_list1.append(inner_list1)
+    return(outer_list1)
+
 
 
 def loops_6():
@@ -247,7 +254,13 @@ def loops_6():
     You can use a variable.
     TIP: look out for the starting condition.
     """
-    return None
+    outer_bracket1 = []
+    for i in range (10):
+        inner_bracket = []
+        for j in range (i+1):
+            inner_bracket.append(str(j))
+        outer_bracket1.append(inner_bracket)
+    return(outer_bracket1)
 
 
 def loops_7():
@@ -271,7 +284,25 @@ def loops_7():
     This is a hard problem. Use lots of experimentation and draw
     lots of diagrams!
     """
-    return None
+    outer_bracket7 = []
+    for i in range(5):
+        inner_bracket7 = []
+        for j in range(9):
+            if i == 0 and j == 4 :
+                inner_bracket7.append("*")
+            elif i == 1 and 3 <= j <= 5 :
+                inner_bracket7.append("*")
+            elif i == 2 and 2 <= j <= 6 :
+                inner_bracket7.append("*")
+            elif i == 3 and 1 <= j <= 7 :
+                inner_bracket7.append("*")
+            elif i == 4:
+                inner_bracket7.append("*")
+            else:
+                inner_bracket7.append(" ")
+        outer_bracket7.append(inner_bracket7)
+    return(outer_bracket7)
+
 
 
 if __name__ == "__main__":
