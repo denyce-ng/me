@@ -44,11 +44,11 @@ def fix_it(moves=True, should_move=True):
         
     if moves:
        if not should_move:
-            return "WD-40"
+            return "Duct Tape"
     
     if not moves:
         if should_move:
-            return "Duct Tape"
+            return "WD-40"
         
 
 

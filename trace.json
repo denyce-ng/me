@@ -52,7 +52,7 @@
   },
   {
     "of_total": 35,
-    "mark": 32,
+    "mark": 34,
     "results": [
       {
         "value": 1,
@@ -147,11 +147,11 @@
         "name": "Exercise 3: fix_it - it moves, and it should  move"
       },
       {
-        "value": 0,
+        "value": 1,
         "name": "Exercise 3: fix_it - it moves, and it should not move"
       },
       {
-        "value": 0,
+        "value": 1,
         "name": "Exercise 3: fix_it - it does not move, and it should  move"
       },
       {
