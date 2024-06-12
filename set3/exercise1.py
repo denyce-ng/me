@@ -94,7 +94,7 @@ def super_asker(low, high):
                 break
         except ValueError as input_error:
             number= input(f"This is not a number. Give me a number between {low} and {high}.")
-
+    return intnumber
 
 if __name__ == "__main__":
     # this section does a quick test on your results and prints them nicely.
