@@ -52,7 +52,7 @@ def stubborn_asker(low, high):
     number= int(input(f"Give me a number between {low} and {high}"))
     while True:
         if number < low or number > high or number == low or number ==  high:
-            number=int(input(f"Give me another number between {low} and {high}"))
+            number=int(input(f"This number is not between {low} and {high}. Try again."))
         if low<number<high:
             print (f"This number is between {low} and {high}")
             break
@@ -83,20 +83,17 @@ def super_asker(low, high):
     Combine what you learnt from stubborn_asker and not_number_rejector
     to make a function that does it all!
     """
-    number= int(input(f"Give me a number between {low} and {high}"))
+    number= input(f"Give me a number between {low} and {high}")
     while True:
         try:
-            return int(number)
+            intnumber = int(number)
+            if intnumber < low or intnumber > high or intnumber == low or intnumber ==  high:
+                intnumber=int(input(f"This number is not between {low} and {high}. Try again."))
+            if low<intnumber<high:
+                print (f"This number is between {low} and {high}")
+                break
         except ValueError as input_error:
-            number= input(f"Give me another number.{input_error}")
-        else:
-            intnumber= int(number)
-        if intnumber < low or intnumber > high or intnumber == low or intnumber ==  high:
-            intnumber=int(input(f"Give me another number between {low} and {high}"))
-        if low<intnumber<high:
-            print (f"This number is between {low} and {high}")
-            break
-    return number
+            number= input(f"This is not a number. Give me a number between {low} and {high}.")
 
 
 if __name__ == "__main__":
