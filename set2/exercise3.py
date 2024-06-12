@@ -228,7 +228,7 @@ def loops_5():
     for i in range (10):
         inner_list1 = []
         for j in range (5):
-            inner_list1.append(str(f"(i{i},j{j})"))
+            inner_list1.append(str(f"(i{i}, j{j})"))
         outer_list1.append(inner_list1)
     return(outer_list1)
 

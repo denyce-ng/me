@@ -5,7 +5,7 @@ you can modify it and make it throw different errors to see how it works
 
 try:
     my_list = [1, 2, 3]
-    print(my_list[5])  # <-- with throw an IndexError
+    print(my_list[2])  # <-- with throw an IndexError
     a = 1 / 0  # <-- with throw a ZeroDivisionError
 except ZeroDivisionError as ze:
     print("I know your game", ze)
