@@ -15,23 +15,23 @@ def exampleGuessingGame():
 
     This is an example guessing game. It'll test as an example too.
     """
-    print("\nWelcome to the guessing game!")
+    print("\nWelcome to the guessing game!") #The string is printed in a new line
     print("A number between 0 and _ ?")
-    upperBound = input("Enter an upper bound: ")
-    print(f"OK then, a number between 0 and {upperBound} ?")
-    upperBound = int(upperBound)
+    upperBound = input("Enter an upper bound: ") #prompt the user to input a number
+    print(f"OK then, a number between 0 and {upperBound} ?") #confirms upper bound entered by user 
+    upperBound = int(upperBound) #turns the input into an integer
 
-    actualNumber = random.randint(0, upperBound)
+    actualNumber = random.randint(0, upperBound) #generates random number between 0 and upper bound
 
-    guessed = False
+    guessed = False #a variable is made which is used later in the loop
 
-    while not guessed:
-        guessedNumber = int(input("Guess a number: "))
-        print(f"You guessed {guessedNumber},")
-        if guessedNumber == actualNumber:
-            print(f"You got it!! It was {actualNumber}")
-            guessed = True
-        elif guessedNumber < actualNumber:
+    while not guessed: #starts a loop which starts everytime guessed = False
+        guessedNumber = int(input("Guess a number: ")) #prompts user to guess a number then turns it into an input
+        print(f"You guessed {guessedNumber},") #confirms guessed Number
+        if guessedNumber == actualNumber: #checks if guessed number equals actual number
+            print(f"You got it!! It was {actualNumber}") #confirms it is the right number
+            guessed = True #sets guessed as True, which stops the loop
+        elif guessedNumber < actualNumber: #if the guessed number is less than the actual number, it will tell it is too small
             print("Too small, try again :'(")
         else:
             print("Too big, try again :'(")
