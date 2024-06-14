@@ -10,10 +10,10 @@ else is used as the final option when none of the preceding conditions are True
 When Python encounters the break statement, it immediately exits the loop it's currently in, regardless of the loop's condition.
 
 the try...except block is used to handle errors or exceptions that may occur during the execution of code
-When an error is gotten then:
+When an error is gotten then
 eg:
 try:
-smtg smtg
+smtg smtg (any line of code you want to execute but also want to check for any errors in except)
 except <error name> as <variable>: #this sets variable as error message (predetermined):
 what you want to do if <error name> is detected
 
