@@ -6,6 +6,7 @@ xxx.read() reads the entire contents of the file
 json.dumps() is used to convert a Python object into a JSON string. This process is known as serialization or "dumping" the object to JSON.
 xx.write(string/item/object) is used write a string (or bytes) to a file object xx.
 json.loads() is a method that is used to parse a JSON string and convert it into a Python dictionary, list, or other appropriate data structure.
+requests.get(url) gets the info in the url
 
 \t sequence represents a tab character
 
