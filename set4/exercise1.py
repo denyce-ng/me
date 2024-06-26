@@ -1,6 +1,5 @@
 """All about IO."""
 
-
 import json
 import os
 import requests
@@ -16,9 +15,8 @@ if LOCAL != CWD:
     Be careful that your relative paths are
     relative to where you think they are
     LOCAL: {LOCAL}
-    CWD: "CWD
-    """
-    )
+    CWD: "CWD"""
+    )  # current working directory
 
 
 def get_some_details():
