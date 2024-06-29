@@ -85,11 +85,11 @@ def wordy_pyramid():
     wordvalue = 3
     while wordvalue <= 17:
         url = f"https://us-central1-waldenpondpress.cloudfunctions.net/give_me_a_word?wordlength={wordvalue}"
-        pyramid.append(str(requests.get(url).text))
+        pyramid.append((requests.get(url).text))
         wordvalue += 2
     while wordvalue >= 3:
         url = f"https://us-central1-waldenpondpress.cloudfunctions.net/give_me_a_word?wordlength={wordvalue}"
-        pyramid.append(str(requests.get(url).text))
+        pyramid.append((requests.get(url).text))
         wordvalue -= 2
     return pyramid
 
@@ -108,13 +108,20 @@ def pokedex(low=1, high=5):
          get very long. If you are accessing a thing often, assign it to a
          variable and then future access will be easier.
     """
-    id = 5
-    url = f"https://pokeapi.co/api/v2/pokemon/{id}"
-    r = requests.get(url)
-    if r.status_code is 200:
+    id = low
+    maxheight = 0
+    while id < high:
+        url = f"https://pokeapi.co/api/v2/pokemon/{id}"
+        r = requests.get(url)
         the_json = json.loads(r.text)
-
-    return {"name": None, "weight": None, "height": None}
+        if r.status_code == 200:
+            height = the_json["height"]
+        if height > maxheight:
+            maxheight = height
+            maxname = the_json["forms"][0]["name"]
+            maxweight = the_json["weight"]
+        id += 1
+    return {"name": maxname, "weight": maxweight, "height": maxheight}
 
 
 def diarist():
