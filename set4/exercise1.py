@@ -132,11 +132,9 @@ def diarist():
     Write the answer (a number) to a file called 'lasers.pew' in the Set4 directory.
 
     TIP: you need to write a string, so you'll need to cast your number
-    TIP: Trispokedovetiles(laser).gcode uses windows style line endings. CRLF
-         not just LF like unix does now. If your comparison is failing this
-         might be why. Try in rather than == and that might help.
-    TIP: remember to commit 'lasers.pew' and push it to your repo, otherwise
-         the test will have nothing to look at.
+    TIP: Trispokedovetiles(laser).gcode uses windows style line endings. CRLF not just LF like unix does now. If your comparison is failing this
+    might be why. Try in rather than == and that might help.
+    TIP: remember to commit 'lasers.pew' and push it to your repo, otherwise the test will have nothing to look at.
     TIP: this might come in handy if you need to hack a 3d print file in the future.
 
     NOTE: this function doesn't return anything. It has the _side effect_ of modifying the file system
