@@ -145,7 +145,7 @@ def diarist():
         if "M10 P1" in line:
             amount += 1
     amount = str(amount)
-    g_code = open("lasers.pew", "w")
+    g_code = open("/Users/denyceng/1161/me/set4/lasers.pew", "w")
     g_code.write(amount)
     pass
 
