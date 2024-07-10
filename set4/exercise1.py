@@ -140,7 +140,7 @@ def diarist():
     NOTE: this function doesn't return anything. It has the _side effect_ of modifying the file system
     """
     amount = 0
-    file = open("set4/Trispokedovetiles(laser).gcode", "r")
+    file = open(" set4/Trispokedovetiles(laser).gcode", "r")
     for line in file:
         if "M10 P1" in line:
             amount += 1
