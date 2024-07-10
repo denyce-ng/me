@@ -140,12 +140,12 @@ def diarist():
     NOTE: this function doesn't return anything. It has the _side effect_ of modifying the file system
     """
     amount = 0
-    file = open("/Users/denyceng/1161/me/set4/Trispokedovetiles(laser).gcode", "r")
+    file = open("set4/Trispokedovetiles(laser).gcode", "r")
     for line in file:
         if "M10 P1" in line:
             amount += 1
     amount = str(amount)
-    g_code = open("/Users/denyceng/1161/me/set4/lasers.pew", "w")
+    g_code = open("set4/lasers.pew", "w")
     g_code.write(amount)
     pass
 

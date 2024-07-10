@@ -13,3 +13,6 @@ requests.get(url) gets the info in the url
 modes
 w=write mode. This will create the file if it does not exist, or overwrite the file if it does exist.
 r=read mode. This allows the function to read the contents of the file without modifying it.
+
+absolute path defines the filepath from the whole machine
+relative path locates the file in relation to the current working
