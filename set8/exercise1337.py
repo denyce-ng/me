@@ -269,8 +269,11 @@ def random_filler_text(number_of_words=200) -> str:
     """
 
     my_dict = make_filler_text_dictionary()
-
     words = []
+    for i in range(number_of_words):
+        random_key = str(random.randint(3, 7))
+        random_index = random.randint(0, 3)
+        words.append(my_dict[random_key][random_index])
 
     return " ".join(words)
 
@@ -290,10 +293,20 @@ def fast_filler(number_of_words=200) -> str:
     it'll convert integer keys to strings.
     If you get this one to work, you are a Very Good Programmer™!
     """
-
-    fname = "dict_cache.json"
-
-    return None
+    words = []
+    if os.path.isfile("dict_cache.json"):
+        file = open("./set8/dict_cache.json", "r")
+        my_dict = json.load(file)
+        for i in range(number_of_words):
+            random_key = str(random.randint(3, 7))
+            random_index = random.randint(0, 3)
+            words.append(my_dict[random_key][random_index])
+    else:
+        my_dict = make_filler_text_dictionary()
+        with open("./set8/dict_cache.json", "w") as file:
+            json.dump(my_dict, file, indent=4)
+        return "rerun the function"
+    return " ".join(words)
 
 
 if __name__ == "__main__":
