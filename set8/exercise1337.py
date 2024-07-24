@@ -113,7 +113,15 @@ def fizz_buzz() -> list:
          'FizzBuzz', 16, 17, ...]
     """
     fizz_buzz_list = []
-    # your code here
+    for i in range(1, 101):
+        if i % 5 == 0 and i % 3 == 0:
+            fizz_buzz_list.append("FizzBuzz")
+        elif i % 5 == 0:
+            fizz_buzz_list.append("Buzz")
+        elif i % 3 == 0:
+            fizz_buzz_list.append("Fizz")
+        else:
+            fizz_buzz_list.append(i)
 
     return fizz_buzz_list
 
@@ -129,8 +137,20 @@ def set_it_on_fire(input_string="very naughty boy") -> str:
     TIP: consider using the 'join' method in Python.
     TIP: make sure that you have a 🔥 on both ends of the string.
     """
+    string = list(input_string.upper())
+    number_of_characters = len(string)
+    character_index = 0
+    emoji_list = []
+    for i in range(number_of_characters * 2):
+        if i == 0:
+            emoji_list.append("🔥")
+        if i % 2 == 0:
+            emoji_list.append(string[character_index])
+            character_index += 1
+        if i % 2 == 1:
+            emoji_list.append("🔥")
 
-    return None
+    return "".join(emoji_list)
 
 
 def the_chain_gang_5(the_value) -> bool:
@@ -144,7 +164,7 @@ def the_chain_gang_5(the_value) -> bool:
     TIP: you've already written a function that subtracts 5
     """
 
-    return None
+    return is_it_5(take_five(the_value))
 
 
 def pet_filter(letter="a") -> list:
@@ -162,7 +182,9 @@ def pet_filter(letter="a") -> list:
     ]
     # fmt: on
     filtered = []
-
+    for pet in pets:
+        if letter in pet:
+            filtered.append(pet)
     return filtered
 
 
@@ -177,9 +199,10 @@ def best_letter_for_pets() -> str:
     import string
 
     the_alphabet = string.ascii_lowercase
-    most_popular_letter = ""
+    the_alphabet = list(the_alphabet)
+    alphabet_index = 0
 
-    return most_popular_letter
+    return the_alphabet
 
 
 def make_filler_text_dictionary() -> dict:
