@@ -294,7 +294,7 @@ def fast_filler(number_of_words=200) -> str:
     If you get this one to work, you are a Very Good Programmer™!
     """
     words = []
-    if os.path.isfile("dict_cache.json"):
+    if os.path.isfile("./set8/dict_cache.json"):
         file = open("./set8/dict_cache.json", "r")
         my_dict = json.load(file)
         for i in range(number_of_words):
@@ -305,8 +305,15 @@ def fast_filler(number_of_words=200) -> str:
         my_dict = make_filler_text_dictionary()
         with open("./set8/dict_cache.json", "w") as file:
             json.dump(my_dict, file, indent=4)
-        return "rerun the function"
-    return " ".join(words)
+    if words:
+        first_word = words[0]
+        first_word_list = list(first_word)
+        first_word_list[0] = first_word_list[0].upper()
+        words[0] = "".join(first_word_list)
+    para_without_fullstop = " ".join(words)
+    if not para_without_fullstop.endswith("."):
+        para_without_fullstop += "."
+    return para_without_fullstop
 
 
 if __name__ == "__main__":
