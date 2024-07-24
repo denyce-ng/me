@@ -52,9 +52,13 @@ def italian_dinner(axiom="tomatoes", guard=6):
 
     Here's a photo of the page: https://goo.gl/photos/bEh8dmkYkeAy7W727
     """
-    parts = axiom.split(" ")
+    parts = axiom.split(
+        " "
+    )  # splits the string axiom into a list of substrings (words), separated by spaces.
     result = list(map(italian_rules, parts))
-    new_string = " ".join(result)
+    new_string = " ".join(
+        result
+    )  # concatenates the elements of the result list into a single string, with each element separated by a space.
     guard -= 1
     if guard > 0:
         return italian_dinner(new_string, guard)
