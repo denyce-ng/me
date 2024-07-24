@@ -16,45 +16,49 @@ import requests
 
 def give_me_five() -> int:
     """Returns the integer five."""
-    return None
+    return 5
 
 
 def password_please() -> str:
     """Returns a string, 8 or more characters long, contains at
     least one upper case letter and one lowercase letter.
     TIP: don't put in a real password!"""
-    return None
+    return "HelloIwillacethis"
 
 
 def list_please() -> list[Any]:
     """Returns a list, you can put anything in the list."""
-    return None
+    return ["Hello", 8, "No"]
 
 
 def int_list_please() -> list[int]:
     """Returns a list of integers, any integers are fine."""
-    return None
+    return [5, 7, 9]
 
 
 def string_list_please() -> list[str]:
     """Returns a list of strings, any string are fine."""
-    return None
+    return ["Hello", "Yes", "True"]
 
 
 def dictionary_please() -> dict:
     """Returns a dictionary, anything you like."""
-    return None
+    return {"Name": "Ben Doherty", "Reason of Absence": "idk"}
 
 
 def is_it_5(some_number) -> bool:
     """Returns True if the argument passed is 5, otherwise returns False."""
     well_is_it = None
+    if some_number == 5:
+        well_is_it = True
+    else:
+        well_is_it = False
     return well_is_it
 
 
 def take_five(some_number) -> int:
     """Subtracts 5 from some_number."""
-    return None
+    return some_number - 5
 
 
 def greet(name="Towering Timmy") -> str:
@@ -63,7 +67,7 @@ def greet(name="Towering Timmy") -> str:
     E.g. if given as "Towering Timmy" it should
          return "Well hello, Towering Timmy"
     """
-    return None
+    return f"Well hello, {name}"
 
 
 def one_counter(input_list=[1, 4, 1, 5, 1, 1]) -> int:
