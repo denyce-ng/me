@@ -1,3 +1,213 @@
+commit 5a158de9db7688e95b2a91b35769b13774d8a8e6
+Author: Denyce Ng <ngjenqin10@gmail.com>
+Date:   Wed Jul 24 19:28:42 2024 +1000
+
+    i think i changed..
+
+commit de794c30094e38ab3bad74953dd0fdf0030230e0
+Author: Denyce Ng <ngjenqin10@gmail.com>
+Date:   Wed Jul 24 19:17:31 2024 +1000
+
+    donezo!!
+
+commit 506251c42f8f258cde6908a3f6107f9d8ece9706
+Author: Denyce Ng <ngjenqin10@gmail.com>
+Date:   Wed Jul 24 18:56:19 2024 +1000
+
+    last one left
+
+commit 64243f2180df25a6b6034b3a2fe3cc1e3aeb8020
+Author: Denyce Ng <ngjenqin10@gmail.com>
+Date:   Wed Jul 24 18:00:37 2024 +1000
+
+    finish make_filler_text_dictionary()
+
+commit 6b50a90aed730bab05baf0d2a3da76626c1ce736
+Author: Denyce Ng <ngjenqin10@gmail.com>
+Date:   Wed Jul 24 17:20:13 2024 +1000
+
+    up to pet filter
+
+commit c88128ce12a56e6857a6f4e3143ac79cfc55d5ec
+Author: Denyce Ng <ngjenqin10@gmail.com>
+Date:   Wed Jul 24 16:21:18 2024 +1000
+
+    up till n counter
+
+commit 53b4ea90b6b3e22884ca48b82488ee09c1816701
+Author: Denyce Ng <ngjenqin10@gmail.com>
+Date:   Wed Jul 24 16:16:38 2024 +1000
+
+    up to towering timmy
+
+commit 5f5c157b9d5a2cab96198b9644b9d05bf02b7f98
+Author: Denyce Ng <ngjenqin10@gmail.com>
+Date:   Wed Jul 24 16:08:25 2024 +1000
+
+    copied exercise into me
+
+commit dc8c3007e35059cc511399b071755ff459ee6d48
+Author: Denyce Ng <ngjenqin10@gmail.com>
+Date:   Wed Jul 24 15:41:36 2024 +1000
+
+    made changes
+
+commit 867fd7407b6bb26271c46abcc9ccd0fc57b3bb10
+Author: Denyce Ng <ngjenqin10@gmail.com>
+Date:   Wed Jul 24 15:41:00 2024 +1000
+
+    updated readme to include more notes
+
+commit 40d10fb571a7134beb73712f75d38d25f6b1fb05
+Author: Denyce Ng <ngjenqin10@gmail.com>
+Date:   Wed Jul 24 15:28:15 2024 +1000
+
+    reading set5
+
+commit befbab3e600d084ed08cef6fec06609497996003
+Author: Denyce Ng <ngjenqin10@gmail.com>
+Date:   Wed Jul 24 15:14:35 2024 +1000
+
+    final done
+
+commit bd5aa852260ae45851f90a607bffcda2358ac1e2
+Author: Denyce Ng <ngjenqin10@gmail.com>
+Date:   Wed Jul 24 15:10:32 2024 +1000
+
+    check2
+
+commit 743e05bf2cc5a9a60dd19c69368b0f2ac5af956d
+Author: Denyce Ng <ngjenqin10@gmail.com>
+Date:   Wed Jul 24 15:05:25 2024 +1000
+
+    last check
+
+commit c1ace8bee5094e556fd0d37ad2631a428e80931a
+Author: Denyce Ng <ngjenqin10@gmail.com>
+Date:   Wed Jul 10 19:31:13 2024 +1000
+
+    .
+
+commit 4ef42cfe63c7ac375e52d3e511a76a28d59557fa
+Author: Denyce Ng <ngjenqin10@gmail.com>
+Date:   Wed Jul 10 16:15:21 2024 +1000
+
+    s
+
+commit 4697a041be7e6ba346b8442f73578db81d839f16
+Author: Denyce Ng <ngjenqin10@gmail.com>
+Date:   Wed Jul 10 16:09:03 2024 +1000
+
+    i did it
+
+commit 7d5107a96f7bca4aa5dc5f4c180f9073a4e08ff6
+Author: Denyce Ng <ngjenqin10@gmail.com>
+Date:   Wed Jul 10 15:58:09 2024 +1000
+
+    idk i checked
+
+commit 110c02e522255a1b830f4cfc35e1eb8bb596b49c
+Author: Denyce Ng <ngjenqin10@gmail.com>
+Date:   Fri Jul 5 14:38:32 2024 +1000
+
+    yay
+
+commit beb59f77a1cb18574a73a32976d11c4908c2acfa
+Author: Denyce Ng <ngjenqin10@gmail.com>
+Date:   Fri Jul 5 14:35:39 2024 +1000
+
+    i think i did it
+
+commit 6e076888e0fecd41b0f5780c0cd178e7103128bc
+Author: Denyce Ng <ngjenqin10@gmail.com>
+Date:   Sun Jun 30 20:56:34 2024 +1000
+
+    j
+
+commit ecb3c81fbb6856e217d5b9fb645c1c0bad3d1ef8
+Author: Denyce Ng <ngjenqin10@gmail.com>
+Date:   Sat Jun 29 17:43:29 2024 +1000
+
+    idk
+
+commit 0b4ada4262ec38a11941bb4774296469ac4b849a
+Author: Denyce Ng <ngjenqin10@gmail.com>
+Date:   Wed Jun 26 19:17:28 2024 +1000
+
+    good
+
+commit b4d5ece8b503b7bee5f3c0d430bb4bcad3867c8e
+Author: Denyce Ng <ngjenqin10@gmail.com>
+Date:   Wed Jun 26 18:36:59 2024 +1000
+
+    finish first
+
+commit 30d697a2876864a9fecee8f512bc2b84fa367a6f
+Author: Denyce Ng <ngjenqin10@gmail.com>
+Date:   Wed Jun 26 18:17:48 2024 +1000
+
+    idk
+
+commit ac13960e6a7181b1b1b51fcc1195b4f05bcb4249
+Author: Denyce Ng <ngjenqin10@gmail.com>
+Date:   Wed Jun 26 00:22:01 2024 +1000
+
+    jk
+
+commit a552aa65db80355b9085c839565771d4adf697b4
+Author: Denyce Ng <ngjenqin10@gmail.com>
+Date:   Wed Jun 26 00:20:54 2024 +1000
+
+    i
+
+commit a5cf35148e38dcf7312bd399ee1d5cfdf1fbedd9
+Author: Denyce Ng <ngjenqin10@gmail.com>
+Date:   Wed Jun 19 20:08:46 2024 +1000
+
+    yay
+
+commit 293bae2a17f5a303e1a3e9df8af1eb5dcfb52943
+Author: Denyce Ng <ngjenqin10@gmail.com>
+Date:   Sat Jun 15 02:12:43 2024 +1000
+
+    55
+
+commit 3ba1195032d2a016132015854f24cd7b0661b9a9
+Author: Denyce Ng <ngjenqin10@gmail.com>
+Date:   Sat Jun 15 00:34:43 2024 +1000
+
+    annotated
+
+commit f607fcb77e1b617fc605dc637e524afd928e21b1
+Author: Denyce Ng <ngjenqin10@gmail.com>
+Date:   Wed Jun 12 19:40:10 2024 +1000
+
+    readme
+
+commit f29331659c6fe54fac1db227d2fa5543137c557a
+Author: Denyce Ng <ngjenqin10@gmail.com>
+Date:   Wed Jun 12 19:28:06 2024 +1000
+
+    123
+
+commit d35ec2589afebd51c274adf1ab06b895acb091d3
+Author: Denyce Ng <ngjenqin10@gmail.com>
+Date:   Wed Jun 12 19:26:18 2024 +1000
+
+    finish exercise 1 12 june commit 2
+
+commit 14168079c51ad6b209a7825ab17a81df07491500
+Author: Denyce Ng <ngjenqin10@gmail.com>
+Date:   Wed Jun 12 19:01:50 2024 +1000
+
+    12 june c1
+
+commit 6174556579b08476e691501073b647d5410acfd2
+Author: Denyce Ng <ngjenqin10@gmail.com>
+Date:   Wed Jun 12 16:26:37 2024 +1000
+
+    idk
+
 commit 63c79be9bad2a1a86d262abe3d03a5589e712285
 Author: Denyce Ng <ngjenqin10@gmail.com>
 Date:   Mon Jun 10 19:51:42 2024 +1000
